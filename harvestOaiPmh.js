@@ -224,7 +224,7 @@ var PageProcessor = function(){
                         }
                     });
                   } else {
-                      callback(null);
+                      callback(null,theCourse);  
                   }
               },
               function(theCourse,callback){  // update oaiMetadata records if neccesary
